@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Amirhossein's Simple example - Editor.md examples</title>
+        <link rel="stylesheet" href="editor.md/examples/css/style.css" />
+        <link rel="stylesheet" href="editor.md/css/editormd.css" />
+        <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="layout">
+            <header>
+                <h1>Simple example</h1>
+            </header>
+            <div id="myeditor">
+                <textarea style="display:none;"></textarea>
+            </div>
+        </div>
+
+        <script src="editor.md/examples/js/jquery.min.js"></script>
+        <script src="editor.md/editormd.min.js"></script>
+
+        <script type="text/javascript">
+            testEditor = editormd({
+                id      : "myeditor",
+                width   : "90%",
+                height  : 640,
+                path    : "editor.md/lib/"
+            });
+        </script>
+    </body>
+</html>
